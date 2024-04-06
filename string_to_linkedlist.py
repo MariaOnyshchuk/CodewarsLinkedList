@@ -1,10 +1,6 @@
-'''week 9'''
+'''string to linked list'''
 
-class Node:
-    '''class of Nodes for linked list'''
-    def __init__(self, data, next=None):
-        self.data = data
-        self.next = next
+from preloaded import Node
 
 def linked_list_from_string(s):
     '''convert string to linked list'''

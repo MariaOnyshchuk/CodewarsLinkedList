@@ -1,8 +1,6 @@
-class Node():
-    '''class of Nodes for linked list'''
-    def __init__(self, data, next = None):
-        self.data = data
-        self.next = next
+'''linked list to string'''
+
+from preloaded import Node
 
 def stringify(node):
     '''convert linked list to string'''
