@@ -1,3 +1,5 @@
+'''week 9'''
+
 class Node:
     '''class of Nodes for linked list'''
     def __init__(self, data, next=None):
@@ -15,6 +17,3 @@ def linked_list_from_string(s):
         curr_node = Node(int(lst.pop(0)), prev_node)
         prev_node = curr_node
     return curr_node
-            
-    # return # head to linked list
-print(linked_list_from_string("None"))
